@@ -22,7 +22,7 @@ TODO
 
 'use strict';
 
-angular.module('BenMorganIO.angular-spree', []).directive('spreeSpree', [ function () {
+angular.module('Spree.api', []).directive('orders', [ function () {
 
 	return {
 		restrict: 'A',
