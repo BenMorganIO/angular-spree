@@ -1,6 +1,6 @@
 {
 	"name": "angular-spree",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"authors": [
 		"ben@benmorgan.io"
 	],
@@ -24,7 +24,8 @@
 		"angular":"~1.2.0",
 		"angular-animate":"~1.2.0",
 		"angular-sanitize":"~1.2.0",
-		"angular-touch":"~1.2.0"
+		"angular-touch":"~1.2.0",
+		"angular-route":"~1.2.0"
 	},
 	"devDependencies": {
 	}
