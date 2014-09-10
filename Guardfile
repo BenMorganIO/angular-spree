@@ -1,5 +1,5 @@
 guard 'livereload' do
-  watch(%r{docs/views/.+\.(erb|haml|slim|html)$})
+  watch(%r{docs/views/.+\.(haml)$})
 end
 
 guard 'coffeescript', input: 'docs/assets/javascripts'
