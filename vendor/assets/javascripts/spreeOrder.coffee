@@ -1,0 +1,2 @@
+ngSpree.directive 'spreeOrder', () ->
+  

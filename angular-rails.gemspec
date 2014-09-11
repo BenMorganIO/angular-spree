@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Angular Directives for the Spree API"
   s.license     = "MIT"
 
-  s.files = Dir["{lib,src}/**/*", "MIT-LICENSE", "README.md"]
+  s.files = Dir["{lib,vendor}/**/*", "MIT-LICENSE", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.1"
