@@ -1,2 +1,2 @@
-ngSpree.directive 'spreeOrder', () ->
-  
+angular.module("Spree", []).directive 'spreeOrder', () ->
+  console.log "hello"
