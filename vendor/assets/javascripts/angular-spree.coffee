@@ -3,4 +3,4 @@
 
 "use strict"
 
-ngSpree = angular.module("Spree", [])
+ngSpree = angular.module "Spree", []
