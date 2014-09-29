@@ -1,6 +1,7 @@
 //= require_self
 
 // require all services
+//= require services/base_service
 //= require services/order_service
 
 // require all controllers
