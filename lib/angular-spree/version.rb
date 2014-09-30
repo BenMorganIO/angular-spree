@@ -1,3 +1,5 @@
+require 'json'
+
 module AngularSpree
-  VERSION = "0.0.1"
+  VERSION = ::JSON.parse(File.read 'bower.json')['version']
 end
