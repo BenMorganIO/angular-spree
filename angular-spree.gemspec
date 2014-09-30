@@ -10,7 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Ben A. Morgan"]
   s.email       = ["ben@benmorgan.io"]
   s.homepage    = "https://github.com/BenMorganIO/angular-spree"
-  s.summary     = "Angular Directives for the Spree API"
+  s.summary     = "Angular for Spree"
+  s.description = 'Spree has a lot of moving parts and so does Angular. Take the easy route...'
   s.license     = "MIT"
 
   s.files = Dir["{lib,vendor}/**/*", "MIT-LICENSE", "README.md"]
@@ -22,6 +23,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'sinatra', '~> 1.4'
   s.add_development_dependency 'sinatra-assetpack', '~> 0.3'
   s.add_development_dependency 'guard', '~> 2.6'
-  s.add_development_dependency 'guard-livereload'
-  s.add_development_dependency 'guard-coffeescript'
+  s.add_development_dependency 'guard-livereload', '~> 2.3'
+  s.add_development_dependency 'guard-coffeescript', '~> 1.4'
 end
