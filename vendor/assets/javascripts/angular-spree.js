@@ -7,4 +7,4 @@
 // require all controllers
 //= require controllers/cart_controller
 
-var ngSpree = angular.module("NationalNovelApp", []);
+var ngSpree = angular.module('ngSpree', []);
