@@ -22,4 +22,11 @@ ngSpree.factory 'SpreeOrder', ['$http', 'SpreeBase', ($http, SpreeBase) ->
       new_order()
     else
       SpreeBase.current_order
+
+  update_cart: (data, added_quantity, added_total) ->
+    original_quantity = SpreeBase.current_order.item_count
+    SpreeBase.current_order.item_count = original_quantity + added_quantity
+
+    original_item_total = parseFloat(SpreeBase.current_order.item_total)
+    SpreeBase.current_order.item_total = original_item_total + parseFloat(added_total)
 ]
