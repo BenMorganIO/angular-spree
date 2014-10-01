@@ -1,29 +1,29 @@
 {
-	"name": "angular-spree",
-	"version": "0.0.2",
-	"authors": [
-		"ben@benmorgan.io"
-	],
-	"description": "Angular modules to connect to the Spree API",
-	"keywords": [
-		"angular",
-		"spree",
-		"api",
-		"ecommerce",
-		"spreecommerce"
-	],
-	"license": "MIT",
-	"ignore": [
-		"**/.*",
-		"bower_components",
-		"test",
-		"docs"
-	],
-	"dependencies": {
-		"angular":"~1.2.0"
-	},
-	"devDependencies": {
-		"angular-bootstrap":"~>0.11.0",
-		"bootstrap":"~3.2.0"
-	}
+  "name": "angular-spree",
+  "version": "0.0.2",
+  "authors": [
+    "ben@benmorgan.io"
+  ],
+  "description": "Angular modules to connect to the Spree API",
+  "keywords": [
+    "angular",
+    "spree",
+    "api",
+    "ecommerce",
+    "spreecommerce"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "test",
+    "docs"
+  ],
+  "dependencies": {
+    "angular":"~1.2.0"
+  },
+  "devDependencies": {
+    "angular-bootstrap":"~>0.11.0",
+    "bootstrap":"~3.2.0"
+  }
 }
