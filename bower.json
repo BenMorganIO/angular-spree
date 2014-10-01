@@ -14,7 +14,7 @@
   ],
   "license": "MIT",
   "main": [
-    "vendor/assets/javascripts/angular-spree.coffee",
+    "vendor/assets/javascripts/angular-spree.js",
     "vendor/assets/javascripts/services/base_service.coffee",
     "vendor/assets/javascripts/services/order_service.coffee",
     "vendor/assets/javascripts/services/variant_service.coffee",
