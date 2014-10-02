@@ -18,7 +18,7 @@
     "vendor/assets/javascripts/services/base_service.coffee",
     "vendor/assets/javascripts/services/order_service.coffee",
     "vendor/assets/javascripts/services/variant_service.coffee",
-    "vendor/assets/javascripts/controllers/cart_controller.coffee",
+    "vendor/assets/javascripts/controllers/cart_controller.coffee"
   ],
   "ignore": [
     "**/.*",
