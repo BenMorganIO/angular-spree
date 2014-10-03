@@ -1,6 +1,6 @@
 {
   "name": "angular-spree",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "authors": [
     "ben@benmorgan.io"
   ],
@@ -14,11 +14,11 @@
   ],
   "license": "MIT",
   "main": [
-    "vendor/assets/javascripts/angular-spree.js",
-    "vendor/assets/javascripts/services/base_service.coffee",
-    "vendor/assets/javascripts/services/order_service.coffee",
-    "vendor/assets/javascripts/services/variant_service.coffee",
-    "vendor/assets/javascripts/controllers/cart_controller.coffee"
+    "vendor/assets/javascripts/angular-spree/angular-spree.js",
+    "vendor/assets/javascripts/angular-spree/services/base_service.coffee",
+    "vendor/assets/javascripts/angular-spree/services/order_service.coffee",
+    "vendor/assets/javascripts/angular-spree/services/variant_service.coffee",
+    "vendor/assets/javascripts/angular-spree/controllers/cart_controller.coffee"
   ],
   "ignore": [
     "**/.*",
