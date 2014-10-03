@@ -1,11 +1,11 @@
 //= require_self
 
 // require all services
-//= require services/base_service
-//= require services/order_service
-//= require services/variant_service
+//= require angular-spree/services/base_service
+//= require angular-spree/services/order_service
+//= require angular-spree/services/variant_service
 
 // require all controllers
-//= require controllers/cart_controller
+//= require angular-spree/controllers/cart_controller
 
 var ngSpree = angular.module('ngSpree', []);
